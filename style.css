@@ -110,8 +110,8 @@ nav ul {
 
 .new-heading {
     margin: 1.5rem 0 5px;
-    font-weight: bolder;
-    font-size: 0.7rem;
+    font-weight: 700;
+    font-size: 0.6rem;
     font-family: 'Inter', sans-serif;
 }
 
@@ -149,7 +149,7 @@ hr {
 
 .new-body {
     margin-bottom: 10px;
-    font-size: 9px;
+    font-size: 0.6rem;
     line-height: 1.3rem;
     font-weight: 1;
     color: gray;
@@ -170,10 +170,11 @@ hr {
 
 .footer img {
     max-width: 75px;
+    max-height: 80px;
 }
 
 .footer .foot-title {
-    font-size: 0.68rem;
+    font-size: 0.65rem;
     font-weight: 700;
 }
 
@@ -185,7 +186,7 @@ hr {
 }
 
 .footer .foot-info {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: gray;
 }
 
