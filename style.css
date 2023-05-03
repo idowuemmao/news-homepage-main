@@ -103,7 +103,7 @@ nav ul {
 
 .new-title {
     color: goldenrod;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: bolder;
     font-family: 'Inter', sans-serif;
 }
@@ -111,14 +111,13 @@ nav ul {
 .new-heading {
     margin: 1.5rem 0 5px;
     font-weight: bolder;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     font-family: 'Inter', sans-serif;
 }
 
 .info {
     display: flex;
     flex-direction: column;
-
 }
 
 .info-text {
@@ -170,11 +169,11 @@ hr {
 }
 
 .footer img {
-    max-width: 80px;
+    max-width: 75px;
 }
 
 .footer .foot-title {
-    font-size: 0.70rem;
+    font-size: 0.68rem;
     font-weight: 700;
 }
 
