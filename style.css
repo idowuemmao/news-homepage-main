@@ -169,11 +169,11 @@ hr {
 }
 
 .footer img {
-    width: 100px;
+    width: 80px;
 }
 
 .footer .foot-title {
-    font-size: 1rem;
+    font-size: 14px;
     font-weight: 1000;
 }
 
@@ -185,7 +185,7 @@ hr {
 }
 
 .footer .foot-info {
-    font-size: 15px;
+    font-size: 12px;
     color: gray;
 }
 
