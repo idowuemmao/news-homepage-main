@@ -14,19 +14,22 @@
     <nav class="navbar-full">
       <h1 class="logo">W.</h1>
       <input type="checkbox" id="toogle">
-      <label for="toogle">&#9776;</label>
+      <label for="toogle" class="show active">&#9776;</label>
+      <input type="checkbox" id="toogle">
+      <label for="toogle" class="hide">&#88;</label>
       <ul class="navbar-short">
-        <li>home</li>
-        <li>news</li>
-        <li>popular</li>
-        <li>trending</li>
-        <li>categories</li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">news</a></li>
+        <li><a href="#">popular</a></li>
+        <li><a href="#">trending</a></li>
+        <li><a href="#">categories</a></li>
       </ul>
     </nav>
     <main class="main-body">
       <article class="left-body">
-        <div class="body-image"></div>
-        <h1 class="body-head">The Bright <br> Future of Web 3.0?</h1>
+        <img src="./assets/images/image-web-3-desktop.jpg" alt="" class="body-image web">
+        <img src="./assets/images/image-web-3-mobile.jpg" alt="" class="body-image mobile">
+        <h1 class="body-head">The Bright Future of Web 3.0?</h1>
         <div class="info">
           <p class="info-text">We dive into the next evolution of the web that claims to put the power of the
             platform back into the hands of the people. But is it really fulfilling its promise?</p>
@@ -73,5 +76,6 @@
     </footer>
   </div>
 </body>
+<script src="script.js"></script>
 
 </html>

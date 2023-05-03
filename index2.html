@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* Style the label element to position the toggle */
+    .toggle {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+    }
+
+    /* Hide the checkbox input element */
+    .toggle input {
+        display: none;
+    }
+
+    /* Style the slider element (the part that moves) */
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        -webkit-transition: .4s;
+        transition: .4s;
+        border-radius: 34px;
+    }
+
+    /* Add a different background color to the slider in its "on" state */
+    .slider::before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background-color: white;
+        -webkit-transition: .4s;
+        transition: .4s;
+        border-radius: 50%;
+    }
+
+    /* Change the background color of the slider and the position of the "on" indicator when the toggle is in its "on" state */
+    input:checked+.slider {
+        background-color: green;
+    }
+
+    input:checked+.slider::before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px);
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: #333;
+        color: #fff;
+    }
+
+    .toggle-button {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 24px;
+        cursor: pointer;
+    }
+
+    .toggle-button span {
+        display: block;
+        width: 24px;
+        height: 2px;
+        background-color: #fff;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .navbar-menu {
+        display: none;
+        flex-direction: column;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar-menu li {
+        margin-bottom: 10px;
+    }
+
+    .navbar-menu li a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .navbar-menu.active {
+        display: flex;
+    }
+</style>
+
+<body>
+    <label class="toggle">
+        <input type="checkbox">
+        <span class="slider"></span>
+    </label>
+
+    <nav class="navbar">
+        <div class="toggle-button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="navbar-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+
+
+</body>
+<script>
+    const toggleButton = document.querySelector('.toggle-button');
+    const navbarMenu = document.querySelector('.navbar-menu');
+
+    toggleButton.addEventListener('click', () => {
+        navbarMenu.classList.toggle('active');
+    });
+
+</script>
+
+</html>
