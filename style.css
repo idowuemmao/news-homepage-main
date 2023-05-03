@@ -4,6 +4,8 @@
     font-weight: normal;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -11,7 +13,7 @@
 }
 
 body {
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     display: grid;
     place-items: center;
 }
@@ -82,7 +84,7 @@ nav ul {
 .body-head {
     font-size: 2.8rem;
     max-width: 240px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-weight: 1000;
     line-height: 2.5rem;
 }
@@ -97,9 +99,6 @@ nav ul {
 .body-image {
     width: 100%;
     height: 250px;
-    background: url(/assets/images/image-web-3-desktop.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
     grid-column-start: 1;
     grid-column-end: 3;
 }
@@ -107,12 +106,12 @@ nav ul {
 .new-title {
     color: goldenrod;
     font-size: 2rem;
-    font-weight: 1000;
+    font-weight: bolder;
 }
 
 .new-heading {
     margin: 1.5rem 0 5px;
-    font-weight: 1000;
+    font-weight: bolder;
     font-size: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -176,20 +175,19 @@ hr {
 }
 
 .footer .foot-title {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 1000;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .footer .gray {
     color: gray;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 0.6rem;
     font-weight: 700;
 }
 
 .footer .foot-info {
-    font-size: 1rem;
+    font-size: 0.7rem;
     color: gray;
 }
 
@@ -200,7 +198,7 @@ hr {
 @media screen and (max-width:425px) {
     body {
         margin: 0;
-        font-family: 'CustomFont', Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Inter', sans-serif;
         background-color: black;
         display: grid;
         place-items: center;
