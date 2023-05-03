@@ -50,8 +50,7 @@ nav ul {
     margin-right: auto;
     font-weight: 1000;
     letter-spacing: -2px;
-    /* font-family: Georgia, 'Times New Roman', Times, serif; */
-    font-family: 'Sigmar';
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .navbar-short {
@@ -104,15 +103,16 @@ nav ul {
 
 .new-title {
     color: goldenrod;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bolder;
+    font-family: 'Inter', sans-serif;
 }
 
 .new-heading {
     margin: 1.5rem 0 5px;
     font-weight: bolder;
-    font-size: 1rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.9rem;
+    font-family: 'Inter', sans-serif;
 }
 
 .info {
@@ -170,12 +170,12 @@ hr {
 }
 
 .footer img {
-    width: 80px;
+    max-width: 80px;
 }
 
 .footer .foot-title {
-    font-size: 0.9rem;
-    font-weight: 1000;
+    font-size: 0.70rem;
+    font-weight: 700;
 }
 
 .footer .gray {
