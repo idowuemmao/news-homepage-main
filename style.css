@@ -111,7 +111,7 @@ nav ul {
 .new-heading {
     margin: 1.5rem 0 5px;
     font-weight: 700;
-    font-size: 0.6rem;
+    font-size: 0.65rem;
     font-family: 'Inter', sans-serif;
 }
 
@@ -245,6 +245,15 @@ hr {
         color: black;
         right: 0;
         background-color: white;
+    }
+
+    .new-heading,
+    .footer .foot-title {
+        font-size: 0.85rem;
+    }
+
+    .new-body {
+        font-size: 0.8rem;
     }
 
     .navbar-short li {
