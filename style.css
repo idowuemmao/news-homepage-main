@@ -4,8 +4,6 @@
     font-weight: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
-
 * {
     padding: 0;
     margin: 0;
@@ -13,7 +11,7 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
     display: grid;
     place-items: center;
 }
@@ -52,7 +50,8 @@ nav ul {
     margin-right: auto;
     font-weight: 1000;
     letter-spacing: -2px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: 'Sigmar';
 }
 
 .navbar-short {
@@ -175,7 +174,7 @@ hr {
 }
 
 .footer .foot-title {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 1000;
 }
 
@@ -183,11 +182,11 @@ hr {
     color: gray;
     font-size: 1.2rem;
     margin-bottom: 0.6rem;
-    font-weight: 700;
+    font-weight: 1000;
 }
 
 .footer .foot-info {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     color: gray;
 }
 
